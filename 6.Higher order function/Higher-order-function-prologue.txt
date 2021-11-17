@@ -1,0 +1,12 @@
+// === HIGHER ORDER FUNCTION
+// 'function yang beroperasi pada function yang lain baik itu digunakan dalam argument, maupun sebagai return value.' -eloquent
+// pada javascript sebuah function disebut 'first class function' artinya inti dari javascript itu sebenarya function.
+// 'Javascript memberlakukan function sebagai object'
+
+
+// kenapa menggunakan Higher order function, 1.Abstraksi yaitu agar kode yang kita buat bisa lebih sederhana
+
+Contoh Higher order function
+Array.protoype.map()
+Array.protoype.filter()
+Array.protoype.reduce()

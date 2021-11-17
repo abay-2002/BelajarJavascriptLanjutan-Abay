@@ -1,0 +1,13 @@
+Heap dan Stack
+
+untuk menjalankan javascript ada sebuah runtime/engine untuk menjalankannya engine tersebut disebut V8 engine.
+
+Didalam V8 engine terdapat 2 buah bagian yaitu Heap dan Stack.
+
+Heap
+Heap bertugas sebagai memory allocation, jadi apabila kita membuat variable, function dsbnya yang berhubungan dengan memory allocation maka variable tersebut akan disimpan didalam Heap
+
+Stack
+Stack bertugas sebagai function call dan execution context, jadi apabila kita memanggil sebuah function maka stack akan menjalankannya.
+
+*UNTUK LEBIH LANJUT LIHAT GAMBAR TENTANG HEAP DAN STACK.

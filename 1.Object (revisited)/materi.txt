@@ -1,0 +1,10 @@
+Object (revisited)
+1. Object literal
+2. Function declaration
+3. Object.create()
+4. Constructor/keyword new
+5. Prototype
+
+object.create() untuk memanggil object lain, dengan menggunakan constructor function
+
+Prototype karena pada dasarnya setiap data yang berada pada javascript adalah object, prototype adalah object.create() istilahnya adalah object bawaan. didalam sebuah tipe data.

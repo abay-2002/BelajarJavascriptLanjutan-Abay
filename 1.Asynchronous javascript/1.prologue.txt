@@ -1,0 +1,91 @@
+Asynchronous Javascript
+
+apa itu javascript?
+"Javascript is a single-thread, non-blocking, asynchronous and concurrent language"
+
+============
+===THREAD===
+============
+
+definisi Thread adalah melakukan TASK secara beruru
+Single-thread 
+artinya kita bisa melakukan satu buah task dalam satu waktu.
+contoh:
+THREAD1 = TASK1 -> TASK2 -> TASK3
+
+
+==================
+===Multi-thread===
+==================
+Multi-thread
+kita bisa melakukan banyak buah TASK dalam satu waktu
+THREAD1 = TASK1 		TASK4
+THREAD2 = 	TASK2
+THREAD3 = 		TASK3
+
+
+
+=========================
+===BLOCK vs NON-BLOCK ===
+=========================
+
+===========
+===BLOCK===
+===========
+THREAD: TASK1(Loading)(Process) -> TASK2
+
+dengan BLOCK kita tidak bisa lompat langsung ke TASK2 dari TASK1 kita harus menunggu TASK1 untuk selesai diproses terlebih dahulu.
+
+===============
+===NON-BLOCK===
+===============
+THREAD: TASK1(Loading) -> TASK2(Process)
+
+dengan NON-BLOCKING kita bisa lompat terlebih dahulu menyelesaikan TASK berikutnya untuk diselesaikan/process terlebih dahulu.
+
+
+==================
+===ASYNCHRONOUS===
+==================
+THREAD: TASK1(Loading) -> TASK2(Loading) -> TASK1(Loading)(Process) -> TASK2(Loading)(Process) -> TASK1(Done) -> TASK2(Done)
+
+dengan Asynchronous akan mengecek TASK mana yang dapat terlebih dahulu diselesaikan
+
+
+
+
+==============================
+===COCURRENT vs PARARELLISM===
+==============================
+
+Asynchronous & Single-thread : Cocurrent
+Asynchronous & Multi-thread : Pararellism
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

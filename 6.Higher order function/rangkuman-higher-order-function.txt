@@ -1,0 +1,17 @@
+== Higher order function ==
+adalah sebuah function yang dapat menerima function sebagai argument ataupun sebagai return value function tersebut.
+
+untuk memahami Higher order function lebih lanjut kita perlu memahami dua konsep ini:
+Functional Programming
+First-class function
+
+== Functional programming ==
+functional programming adalah dimana kita bisa mem-pass function sebagai argument untuk function lainnya.
+
+== First-class function ==
+selama belajar javascript kamu mungkin sering mendengar first class citizen. Itu karena Javascript dan bahasa functional programming lainnya memberlakukan Function sebagai object.
+Javascript memberlakukan function sebagai special type of object mereka adalah function object.
+
+pada javascript kita bisa melakukan apapun dengan tipe lainnya seperti object, string ataupun number kita bisa melakukannya dengan function. Kita bisa menjadikan function(callback) sebagai argument untuk function lainnya ataupun sebagai return value dari function tersebut. Inilah kenapa function pada Javascript juga dikenal dengan sebutan First-class function.
+
+

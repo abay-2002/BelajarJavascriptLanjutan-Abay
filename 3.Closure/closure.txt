@@ -1,0 +1,1 @@
+Closure adalah function yang mengreturn sebuah function, function yang direturn berdasarkan lexile scope dari function tersebut.
